@@ -1,0 +1,25 @@
+@"
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Medical datasets
+dataset/
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+
+# Generated outputs
+outputs/
+
+# Model weights
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Local VS Code settings
+.vscode/
+"@ | Set-Content .gitignore
